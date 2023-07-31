@@ -1,0 +1,138 @@
+// C++ code
+
+
+int dL = 147; //d Low note
+int eL = 165;
+int fL = 175;
+int GL = 196;
+
+
+int c = 262;
+int d = 294;
+int e = 330;
+int f = 349;
+int g = 392;
+int a = 440;
+int bP = 467; //b plat
+int cH = 523; //c high note
+int dH = 587;
+
+int outPin = 5;
+int outPin2 = 8;
+
+void setup()
+{
+  pinMode(outPin, OUTPUT);
+  pinMode(outPin2, OUTPUT);
+  
+  	tone(outPin, d, 500);  digitalWrite(outPin2, HIGH);
+  	delay(500);
+  	tone(outPin, f, 500); 
+  	delay(500);
+  	tone(outPin, g, 500);
+  	delay(500);
+  	tone(outPin, f, 250);
+  	delay(250);
+  	tone(outPin, g, 250);
+  	delay(250);
+  
+  	delay(100);
+  
+  	tone(outPin, g, 500);
+  	delay(500);
+  	tone(outPin, cH, 250);
+  	delay(250);
+  	tone(outPin, bP, 250);
+  	delay(250);
+  	tone(outPin, a, 125);
+  	delay(125);
+  	tone(outPin, g, 250);
+  	delay(250);
+  	tone(outPin, a, 500);
+  	delay(500);
+  
+  	delay(125);
+  
+  	tone(outPin, a, 500);
+  	delay(500);
+  	tone(outPin, cH, 500);
+  	delay(500);
+  	tone(outPin, dH, 375);
+  	delay(375);
+  	tone(outPin, g, 375);
+  	delay(375);
+  	tone(outPin, f, 250);
+  	delay(250);
+  
+  	delay(100);
+  
+  	tone(outPin, cH, 500);
+  	delay(500);
+  	tone(outPin, a, 250);
+  	delay(250);
+  	tone(outPin, cH, 250);
+  	delay(250);
+  	tone(outPin, cH, 375);
+  	delay(375);
+  	tone(outPin, dH, 625);
+  	delay(625);
+  
+  	delay(100);
+}
+
+void loop()
+{
+	/*tone(outPin, d, 500); 
+  	delay(500);
+  	tone(outPin, f, 500);
+  	delay(500);
+  	tone(outPin, g, 500);
+  	delay(500);
+  	tone(outPin, f, 250);
+  	delay(250);
+  	tone(outPin, g, 250);
+  	delay(250);
+  
+  	delay(100);
+  
+  	tone(outPin, g, 500);
+  	delay(500);
+  	tone(outPin, cH, 250);
+  	delay(250);
+  	tone(outPin, bP, 250);
+  	delay(250);
+  	tone(outPin, a, 125);
+  	delay(125);
+  	tone(outPin, g, 250);
+  	delay(250);
+  	tone(outPin, a, 500);
+  	delay(500);
+  
+  	delay(125);
+  
+  	tone(outPin, a, 500);
+  	delay(500);
+  	tone(outPin, cH, 500);
+  	delay(500);
+  	tone(outPin, dH, 375);
+  	delay(375);
+  	tone(outPin, g, 375);
+  	delay(375);
+  	tone(outPin, f, 250);
+  	delay(250);
+  
+  	delay(100);
+  
+  	tone(outPin, cH, 500);
+  	delay(500);
+  	tone(outPin, a, 250);
+  	delay(250);
+  	tone(outPin, cH, 250);
+  	delay(250);
+  	tone(outPin, cH, 375);
+  	delay(375);
+  	tone(outPin, dH, 625);
+  	delay(625);
+  
+  	delay(100);*/
+}
